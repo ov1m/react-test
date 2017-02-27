@@ -1,10 +1,16 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React, { Component } from "react";
+import ReactDOM from "react-dom";
 
-import App from './app';
+import App from "./app";
+
+class MainApp extends Component {
+  render() {
+    return (
+      <App />
+    )
+  }
+}
 
 
-
-
-ReactDOM.render(<App />, document.getElementById('app'));
+ReactDOM.render(<MainApp />, document.getElementById("app"));
 

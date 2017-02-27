@@ -1,5 +1,5 @@
-import React, { Component } from 'react';
-import './app.scss';
+import React, { Component, } from "react";
+import "./app.scss";
 
 class App extends Component {
   render() {
@@ -9,6 +9,7 @@ class App extends Component {
     )
   }
 }
+
 
 export default App;
 
