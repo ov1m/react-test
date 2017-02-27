@@ -1,8 +1,15 @@
+import React, { Component } from 'react';
 import './app.scss';
-// import './style/fonts.scss';
 
-const app = 10;
+class App extends Component {
+  render() {
 
-console.log('asdads111')
+    return(
+      <div>Testasdas sad</div>
+    )
+  }
+}
 
-export default app;
+export default App;
+
+
