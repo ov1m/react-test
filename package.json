@@ -5,11 +5,12 @@
   "repository": "https://github.com/ov1m/react-boilerplate",
   "license": "MIT",
   "scripts": {
-    "dist": "webpack",
-    "serve": "webpack-dev-server",
     "clean": "rm -rf dist",
+    "dist": "webpack",
+    "mockup": "json-server --watch db.json",
     "eslint": "eslint --ext .js --ext .jsx src",
-    "eslint:fix": "npm run eslint -- --fix"
+    "eslint:fix": "npm run eslint -- --fix",
+    "serve": "webpack-dev-server"
   },
   "devDependencies": {
     "babel-core": "^6.23.1",
@@ -27,6 +28,7 @@
     "file-loader": "^0.10.1",
     "html-webpack-plugin": "^2.28.0",
     "image-webpack-loader": "^3.2.0",
+    "json-server": "^0.9.5",
     "node-sass": "^4.5.0",
     "resolve-url-loader": "^2.0.0",
     "rimraf": "^2.6.1",
@@ -37,6 +39,7 @@
     "webpack-dev-server": "^2.4.1"
   },
   "dependencies": {
+    "axios": "^0.15.3",
     "react": "^15.4.2",
     "react-dom": "^15.4.2",
     "redux": "^3.6.0"
